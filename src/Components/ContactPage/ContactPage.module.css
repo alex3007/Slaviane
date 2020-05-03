@@ -1,0 +1,9 @@
+.contactsBlock{
+    margin: auto;
+    width: 250px;
+}
+.contacts{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}

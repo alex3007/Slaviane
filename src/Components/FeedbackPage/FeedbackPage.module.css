@@ -1,0 +1,25 @@
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.textArea{
+    width: 200px;
+    height: 100px;
+}
+
+.buttonAddFeedback{
+    width: 200px;
+}
+
+.messageTextBlock{
+    margin: 35px 20px;
+    text-align: left;
+}
+
+.title{
+    margin-bottom: 10px;
+}
