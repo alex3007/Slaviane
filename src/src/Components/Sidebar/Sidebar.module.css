@@ -1,0 +1,29 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.sidebar {
+    width: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    border: dimgray solid 1px;
+    margin: 2px 5px ;
+    box-shadow: 0 0 5px rgba(4, 41, 247, 0.36);
+    border-radius: 7px;
+    background-color: #f7f7f7;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #006cbe;
+
+}
+
+
+.link:hover{
+    background-color: #e7ebec;
+    text-decoration: none;
+}
+
+

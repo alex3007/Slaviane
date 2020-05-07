@@ -1,0 +1,26 @@
+.itemName{
+    margin: auto;
+}
+
+.item{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+    border: 1px #616161 solid;
+    box-shadow: 0 0 13px;
+    margin: 5px;
+}
+
+.item:hover{
+    text-decoration: none;
+}
+
+
+.flexItemsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 390px;
+    text-align: center;
+}

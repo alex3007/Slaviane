@@ -4,8 +4,8 @@ import {NavLink} from "react-router-dom";
 
 const Header = (props) => {
     return (
-        <div>
-           Название
+        <div className={cls.header}>
+           Соответсвие деревьев и Имен Славянских Божеств с описанием
         </div>
     );
 }
