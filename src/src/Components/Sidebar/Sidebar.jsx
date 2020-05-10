@@ -6,7 +6,9 @@ const Sidebar = (props) => {
 
 
     let sidebarElements = props.trees
-        .map(e => (<NavLink onClick={(p)=>{props.newPath(e.path)}} className={cls.link} to={e.path}>
+        .map(e => (<NavLink onClick={(p)=>{props.newPath(e.path)}}
+                            className={cls.link} to={e.path}
+                            activeClassName={ cls.active}>
             {e.name}
         </NavLink>));
     return (

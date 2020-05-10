@@ -8,6 +8,7 @@
 }
 
 .link {
+    transition-duration: .3s;
     border: dimgray solid 1px;
     margin: 2px 5px ;
     box-shadow: 0 0 5px rgba(4, 41, 247, 0.36);
@@ -17,13 +18,21 @@
     padding-bottom: 5px;
     font-weight: bold;
     color: #006cbe;
+    font-family: Gabriela;
 
 }
 
 
 .link:hover{
-    background-color: #e7ebec;
+    transition-duration: .3s;
+    background-color: #224b7a;
     text-decoration: none;
+    color: #ffffff;
 }
 
+.active{
+    background-color: #224b7a;
+    text-decoration: none;
+    color: #ffffff;
+}
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Items from './Items';
 import {connect} from "react-redux";
 import {newSoulPathAC} from "../../Redux/items-reducer";
+import {withRouter} from 'react-router-dom';
 
 let mapStateToProps = (state) => {
 
@@ -66,7 +67,8 @@ let mapDispatchToProps = (dispatch) => {
     }
 };
 
+let WithRouterItems = withRouter(Items)
 
-const ItemsContainer = connect(mapStateToProps, mapDispatchToProps)(Items);
+const ItemsContainer = connect(mapStateToProps, mapDispatchToProps)(WithRouterItems);
 
 export default ItemsContainer;

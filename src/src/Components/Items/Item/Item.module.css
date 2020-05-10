@@ -1,8 +1,10 @@
 .itemName{
     margin: auto;
+    font-family: Gabriela;
 }
 
 .item{
+    transition-duration: .3s;
     display: flex;
     width: 120px;
     height: 120px;
@@ -13,7 +15,9 @@
 }
 
 .item:hover{
+    transition-duration: .3s;
     text-decoration: none;
+    box-shadow: 0 0 13px #004992;
 }
 
 

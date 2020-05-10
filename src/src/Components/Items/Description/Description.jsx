@@ -6,6 +6,7 @@ const Description = (props) => {
 
     let descriptionId;
     let pathArray = props.soul.map(e => (e.path));
+    let nameArray = props.soul.map(e => (e.name));
     let descriptionArray = props.soul.map(e => (e.description));
     let n = pathArray.length;
     for (let i = 0; i <= n; i++) {
@@ -14,8 +15,16 @@ const Description = (props) => {
         }
     }
     return (
-        <div className={cls.textContainer}>
-            {descriptionArray[descriptionId]}
+        <div>
+            <div className={cls.iContainer}>
+                <button className={cls.closeButton} onClick={() => {
+                    props.history.goBack()
+                }}><i  className="fa fa-2x fa-times"></i></button>
+            </div>
+                <h2 className={cls.title}>{nameArray[descriptionId]}</h2>
+            <div className={cls.textContainer}>
+                {descriptionArray[descriptionId]}
+            </div>
         </div>
 
     )

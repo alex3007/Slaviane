@@ -131,7 +131,7 @@ let initialState = {
         {id: 8, path: "/yama", name: "Яма", description: "Бог гниения и тления, перехода от Жизни к Смерти. Символ освобождения и перерождения. "},
         {id: 9, path: "/peraskeya", name: "Пераскея", description: " Царица Подземного царства. Символ мудрости, предвидения, интуиции, обольщения, тщеславия и стремления к власти. "}
     ],
-    start:[{ name: '12 Деревьев 108 Имен', path:'/gods' }],
+    start:[{ name: '12 Деревьев 108 Имен', path:'/gods', description:"njfgfgh" }],
     currentSoulPath:''
 
 };
