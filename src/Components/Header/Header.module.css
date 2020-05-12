@@ -1,22 +1,7 @@
-.navBar{
-     margin-left: auto;
- }
-
-.navItem{
-    margin-right: 10px;
-}
-
-.navLink{
-color: #6c757d;
-}
-
-.navLink:hover {
-    color: #000000;
-    text-decoration: none;
-
-}
-
-.navLink:focus{
-    color: #000000;
-
+.header{
+    text-align: center;
+    color: white;
+    background-color: #224b7a;
+    padding-bottom: 5px;
+    font-family: Gabriela;
 }

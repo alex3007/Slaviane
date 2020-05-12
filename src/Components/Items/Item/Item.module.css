@@ -1,34 +1,30 @@
-.card {
-    width: 12rem;
-    height: 14rem;
-    border-radius: 20px;
-    border: 1px black solid;
-    margin: 30px 10px;
-    box-shadow: 0 0 10px;
-    overflow: hidden;
-    padding-top: 5px;
-    position: relative;
+.itemName{
+    margin: auto;
+    font-family: Gabriela;
 }
 
-.describe{
-    transition: all .5s linear;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    background-color: white;
-    width: 12rem;
-    height: 14rem;
-    padding: 30px 10px;
+.item{
+    transition-duration: .3s;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+    border: 1px #616161 solid;
+    box-shadow: 0 0 13px;
+    margin: 5px;
 }
 
-.card:hover .describe{
-    transition: all .5s linear;
-    opacity: 1;
+.item:hover{
+    transition-duration: .3s;
+    text-decoration: none;
+    box-shadow: 0 0 13px #004992;
 }
 
-.card img {
-    height: 9rem;
-    width: auto;
-    margin-bottom: 20px;
-    margin-top: 13px;
+
+.flexItemsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 390px;
+    text-align: center;
 }
