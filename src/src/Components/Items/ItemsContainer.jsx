@@ -1,4 +1,3 @@
-import React from 'react';
 import Items from './Items';
 import {connect} from "react-redux";
 import {newSoulPathAC} from "../../Redux/items-reducer";

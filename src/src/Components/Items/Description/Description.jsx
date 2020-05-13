@@ -16,12 +16,12 @@ const Description = (props) => {
     }
     return (
         <div>
-            <div className={cls.iContainer}>
-                <button className={cls.closeButton} onClick={() => {
+            <div className={cls.titleContainer}>
+                <i onClick={() => {
                     props.history.goBack()
-                }}><i  className="fa fa-2x fa-times"></i></button>
-            </div>
+                }} className="fa fa-2x fa-times"></i>
                 <h2 className={cls.title}>{nameArray[descriptionId]}</h2>
+            </div>
             <div className={cls.textContainer}>
                 {descriptionArray[descriptionId]}
             </div>
