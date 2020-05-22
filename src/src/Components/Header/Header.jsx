@@ -1,13 +1,13 @@
 import React from 'react';
 import cls from './Header.module.css';
-import {NavLink} from "react-router-dom";
 
 const Header = (props) => {
     return (
         <div className={cls.header}>
-           Соответсвие деревьев и Имен Славянских Божеств
+            <p>Соответсвие деревьев и Имен Славянских Божеств</p>
+            <a className={cls.source} href="https://vedznich.ru/" > Источник: Vedznich.ru</a>
         </div>
     );
-}
+};
 
 export default Header;
