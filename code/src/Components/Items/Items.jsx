@@ -3,7 +3,7 @@ import cls from './Items.module.css';
 import {Route} from 'react-router-dom';
 import Item from './Item/Item';
 import Description from './Description/Description';
-import kolo from '../../Assets/images/kolo.jpg';
+import kolo from '../../Assets/images/kolo.png';
 
 
 const Items = (props) => {

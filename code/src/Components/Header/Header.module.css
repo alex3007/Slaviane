@@ -1,8 +1,16 @@
 .header{
     text-align: center;
     color: white;
-    background-color: #224b7a;
+    background-color: #637a22;
+    background: linear-gradient( #ffffff,#637a22, #637a22,#637a22 );
     padding-bottom: 1px;
     padding-top: 7px;
     font-family: Gabriela;
+}
+.header i{
+    float: left;
+    margin: 0 10px;
+    opacity: 1;
+    color: #ffffff;
+    box-shadow: none;
 }

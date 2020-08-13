@@ -6,25 +6,29 @@
 .item{
     transition-duration: .3s;
     display: flex;
-    width: 120px;
-    height: 120px;
-    border-radius: 30px;
-    border: 1px #616161 solid;
-    box-shadow: 0 0 13px;
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px #4c5c18 solid;
+    box-shadow: 0 0 13px rgba(168, 141, 7, 0.95);
     margin: 5px;
+    color: #ffffff;
+    background: linear-gradient( #ffffff,#4c5c18,#4c5c18 );
 }
 
 .item:hover{
     transition-duration: .3s;
     text-decoration: none;
-    box-shadow: 0 0 13px #004992;
+    box-shadow: 0 0 13px #4c5c18;
+    color: #ffffff;
+    opacity: 0.9;
 }
 
 
 .flexItemsContainer{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     max-width: 390px;
     text-align: center;
 }

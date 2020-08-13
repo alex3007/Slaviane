@@ -6,9 +6,9 @@
 
 i{
     border-radius: 20px;
-    color:#004992;
+    color: #4c5c18;
     padding: 3px 7px;
-    box-shadow:0 0 10px #004992 ;
+    box-shadow:0 0 10px rgba(168, 141, 7, 0.95) ;
     opacity: 0.3;
     margin-bottom: 10px;
     float: right;
@@ -21,17 +21,18 @@ i:hover{
 
 i:active{
     opacity: 0.9;
-    box-shadow:0 0 15px #004992 ;
+    box-shadow:0 0 15px #4c5c18 ;
 }
 
 .textContainer{
     max-width: 300px;
     border-radius: 15px;
-    box-shadow: 0 0 10px #004992;
-    color: #0052a1;
+    box-shadow: 0 0 10px rgba(168, 141, 7, 0.95);
+    color:#4c5c18;
     padding: 5px 5px 10px 13px;
     margin: 0 10px 0 5px;
     font-family: Gabriela;
+    background-color: #ffffff;
 }
 
 .title{
@@ -39,7 +40,8 @@ i:active{
     margin-left: 15px;
     font-family: Gabriela;
     font-weight: bold;
-    color: rgba(0, 49, 166, 0.84);
+    color: #4c5c18;
     display: block;
     clear: both;
+    text-shadow: 0 0 10px #ffffff;
 }

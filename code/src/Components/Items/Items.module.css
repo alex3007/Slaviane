@@ -4,11 +4,10 @@
 }
 
 .startImage {
-    max-width: 200px;
+    max-width: 300px;
     pointer-events: none;
     border-radius: 150px;
     margin: auto;
     opacity: 0.9;
     overflow: hidden;
-
 }

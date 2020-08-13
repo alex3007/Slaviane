@@ -4,7 +4,8 @@ import cls from './Header.module.css';
 const Header = (props) => {
     return (
         <header className={cls.header}>
-            <p>Соответсвие деревьев и Имен Славянских Божеств</p>
+            <i className='fa fa-2x fa-pagelines'/>
+            <p>Виды и описание деревьев</p>
         </header>
     );
 };
